@@ -79,8 +79,7 @@ Carefully remove both the black (Ground) and yellow (+5V) wires from the fan's c
 
 1.  **Create the Script File:** Use a text editor like `nano` to create the script in your home directory (or another location of your choice).
     ```bash
-    # Replace YOUR_USERNAME with your actual username (e.g., pi)
-    nano /home/YOUR_USERNAME/pwm_fan_control.py
+    nano  ~/pwm_fan_control.py
     ```
 
 2.  **Paste the Script Code:** Copy and paste the following Python code into the editor.
