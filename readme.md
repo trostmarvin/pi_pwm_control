@@ -1,6 +1,6 @@
 # Raspberry Pi PWM Fan Control using Python, pigpio, and systemd
 
-This guide explains how to efficiently control a 4-pin PWM fan (like a Noctua NF-A4x10 5V PWM) connected to a Raspberry Pi based on CPU temperature. It uses a Python script that runs as a background service managed by `systemd`, interacting with the `pigpio` library.
+This guide explains how to efficiently control a 4-pin PWM fan (like a Noctua NF-A4x20 5V PWM) connected to a Raspberry Pi based on CPU temperature. It uses a Python script that runs as a background service managed by `systemd`, interacting with the `pigpio` library.
 
 ## Why this Method?
 
