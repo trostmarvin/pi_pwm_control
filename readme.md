@@ -221,8 +221,7 @@ Carefully remove both the black (Ground) and yellow (+5V) wires from the fan's c
 
 5.  **Test Manually (Optional):** You can run the script directly from your terminal to see if it works and prints any errors. Press `Ctrl+C` to stop it.
     ```bash
-    # Replace YOUR_USERNAME with your actual username
-    python3 /home/YOUR_USERNAME/pwm_fan_control.py
+    python3 ~/pwm_fan_control.py
     ```
 
 ## Automating with `systemd`
