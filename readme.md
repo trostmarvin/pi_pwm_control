@@ -97,7 +97,7 @@ Carefully remove both the black (Ground) and yellow (+5V) wires from the fan's c
     FAN_GPIO_PIN = 15
 
     # Set temperature thresholds in Celsius
-    TEMP_OFF = 45  # Temperature below which the fan is off (PWM 0)
+    TEMP_OFF = 35  # Temperature below which the fan is off (PWM 0)
     TEMP_FULL = 65 # Temperature above which the fan is full speed (PWM 255)
 
     # PWM range for pigpio (0 = off, 255 = full speed)
@@ -105,7 +105,7 @@ Carefully remove both the black (Ground) and yellow (+5V) wires from the fan's c
     PWM_MAX = 255
 
     # How often to check the temperature (in seconds)
-    SLEEP_INTERVAL = 5
+    SLEEP_INTERVAL = 10
 
     # Optional: Hysteresis temperature range (degrees C)
     # Fan speed will only change if temp moves outside of (last_temp +/- HYSTERESIS/2)
