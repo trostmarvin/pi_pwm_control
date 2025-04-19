@@ -51,6 +51,8 @@ Carefully remove both the black (Ground) and yellow (+5V) wires from the fan's c
 
 **Connect to Pi:** Once rearranged, align the connector so the Yellow wire goes to Pin 4, Black to Pin 6, Green to Pin 8, and Blue to Pin 10. Gently push the connector onto the header pins.
 
+![raspi_noctua_setup](https://github.com/user-attachments/assets/e5b4b009-8df0-4885-8763-725c540dcc1a)
+
 ## Software Setup
 
 1.  **Update Package List:**
